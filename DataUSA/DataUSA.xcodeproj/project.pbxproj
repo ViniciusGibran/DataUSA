@@ -17,6 +17,8 @@
 		91936E3E2C6C297400FD2AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91936E3C2C6C297400FD2AB6 /* Preview Assets.xcassets */; };
 		91936E412C6C29EC00FD2AB6 /* StateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E402C6C29EC00FD2AB6 /* StateDataView.swift */; };
 		91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E422C6C2AA000FD2AB6 /* NationDataView.swift */; };
+		91936E452C6C2D4600FD2AB6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E442C6C2D4600FD2AB6 /* APIService.swift */; };
+		91936E482C6C2D8000FD2AB6 /* DataUSARepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		91936E3C2C6C297400FD2AB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91936E402C6C29EC00FD2AB6 /* StateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataView.swift; sourceTree = "<group>"; };
 		91936E422C6C2AA000FD2AB6 /* NationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataView.swift; sourceTree = "<group>"; };
+		91936E442C6C2D4600FD2AB6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSARepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 		91101FC72C6C280B00BEECCC /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				91936E462C6C2D6200FD2AB6 /* Remote */,
 				91936E3F2C6C299300FD2AB6 /* Coredata */,
 			);
 			path = Repositories;
@@ -196,6 +201,7 @@
 		91101FC82C6C281500BEECCC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				91936E442C6C2D4600FD2AB6 /* APIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -222,6 +228,14 @@
 				91101F9C2C6C26DB00BEECCC /* DataUSA.xcdatamodeld */,
 			);
 			path = Coredata;
+			sourceTree = "<group>";
+		};
+		91936E462C6C2D6200FD2AB6 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,7 +371,9 @@
 				91936E412C6C29EC00FD2AB6 /* StateDataView.swift in Sources */,
 				91101F9B2C6C26DB00BEECCC /* Persistence.swift in Sources */,
 				91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */,
+				91936E482C6C2D8000FD2AB6 /* DataUSARepository.swift in Sources */,
 				91101F922C6C26D900BEECCC /* DataUSAApp.swift in Sources */,
+				91936E452C6C2D4600FD2AB6 /* APIService.swift in Sources */,
 				91101F9E2C6C26DB00BEECCC /* DataUSA.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
