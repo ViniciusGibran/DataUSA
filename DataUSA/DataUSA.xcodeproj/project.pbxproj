@@ -21,6 +21,14 @@
 		91936E482C6C2D8000FD2AB6 /* DataUSARepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */; };
 		91936E4A2C6C306400FD2AB6 /* NationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E492C6C306400FD2AB6 /* NationData.swift */; };
 		91936E4C2C6C308900FD2AB6 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E4B2C6C308900FD2AB6 /* StateData.swift */; };
+		91936E4E2C6C321300FD2AB6 /* MockDataUSARepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E4D2C6C321300FD2AB6 /* MockDataUSARepository.swift */; };
+		91936E502C6C323300FD2AB6 /* NationDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E4F2C6C323300FD2AB6 /* NationDataViewModel.swift */; };
+		91936E522C6C327200FD2AB6 /* NationDataViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E512C6C327200FD2AB6 /* NationDataViewModelTests.swift */; };
+		91936E542C6C32D700FD2AB6 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E532C6C32D700FD2AB6 /* MockAPIService.swift */; };
+		91936E5B2C6C339600FD2AB6 /* DataUSARepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E5A2C6C339600FD2AB6 /* DataUSARepositoryTests.swift */; };
+		91936E632C6C39C900FD2AB6 /* StateDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E622C6C39C900FD2AB6 /* StateDataViewModel.swift */; };
+		91936E652C6C3A0600FD2AB6 /* StateDataViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E642C6C3A0600FD2AB6 /* StateDataViewModelTests.swift */; };
+		91936E672C6C42E000FD2AB6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91936E662C6C42E000FD2AB6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,14 @@
 		91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSARepository.swift; sourceTree = "<group>"; };
 		91936E492C6C306400FD2AB6 /* NationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationData.swift; sourceTree = "<group>"; };
 		91936E4B2C6C308900FD2AB6 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		91936E4D2C6C321300FD2AB6 /* MockDataUSARepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataUSARepository.swift; sourceTree = "<group>"; };
+		91936E4F2C6C323300FD2AB6 /* NationDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataViewModel.swift; sourceTree = "<group>"; };
+		91936E512C6C327200FD2AB6 /* NationDataViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataViewModelTests.swift; sourceTree = "<group>"; };
+		91936E532C6C32D700FD2AB6 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		91936E5A2C6C339600FD2AB6 /* DataUSARepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSARepositoryTests.swift; sourceTree = "<group>"; };
+		91936E622C6C39C900FD2AB6 /* StateDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataViewModel.swift; sourceTree = "<group>"; };
+		91936E642C6C3A0600FD2AB6 /* StateDataViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataViewModelTests.swift; sourceTree = "<group>"; };
+		91936E662C6C42E000FD2AB6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,7 @@
 		91101FA62C6C26DB00BEECCC /* DataUSATests */ = {
 			isa = PBXGroup;
 			children = (
+				91936E552C6C330C00FD2AB6 /* Modules */,
 				91101FA72C6C26DB00BEECCC /* DataUSATests.swift */,
 			);
 			path = DataUSATests;
@@ -155,6 +172,7 @@
 			children = (
 				91936E3D2C6C297400FD2AB6 /* Preview Content */,
 				91101F952C6C26DB00BEECCC /* Assets.xcassets */,
+				91936E662C6C42E000FD2AB6 /* Launch Screen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -174,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				91936E402C6C29EC00FD2AB6 /* StateDataView.swift */,
+				91936E622C6C39C900FD2AB6 /* StateDataViewModel.swift */,
 			);
 			path = StateDataView;
 			sourceTree = "<group>";
@@ -182,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				91936E422C6C2AA000FD2AB6 /* NationDataView.swift */,
+				91936E4F2C6C323300FD2AB6 /* NationDataViewModel.swift */,
 			);
 			path = NationDataView;
 			sourceTree = "<group>";
@@ -242,6 +262,58 @@
 				91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		91936E552C6C330C00FD2AB6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				91936E572C6C331C00FD2AB6 /* NationData */,
+				91936E582C6C332400FD2AB6 /* StateData */,
+				91936E562C6C331600FD2AB6 /* Common */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		91936E562C6C331600FD2AB6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				91936E5D2C6C341200FD2AB6 /* APIService */,
+				91936E5C2C6C33F500FD2AB6 /* Repositories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		91936E572C6C331C00FD2AB6 /* NationData */ = {
+			isa = PBXGroup;
+			children = (
+				91936E512C6C327200FD2AB6 /* NationDataViewModelTests.swift */,
+			);
+			path = NationData;
+			sourceTree = "<group>";
+		};
+		91936E582C6C332400FD2AB6 /* StateData */ = {
+			isa = PBXGroup;
+			children = (
+				91936E642C6C3A0600FD2AB6 /* StateDataViewModelTests.swift */,
+			);
+			path = StateData;
+			sourceTree = "<group>";
+		};
+		91936E5C2C6C33F500FD2AB6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				91936E4D2C6C321300FD2AB6 /* MockDataUSARepository.swift */,
+				91936E5A2C6C339600FD2AB6 /* DataUSARepositoryTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		91936E5D2C6C341200FD2AB6 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				91936E532C6C32D700FD2AB6 /* MockAPIService.swift */,
+			);
+			path = APIService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91936E672C6C42E000FD2AB6 /* Launch Screen.storyboard in Resources */,
 				91936E3E2C6C297400FD2AB6 /* Preview Assets.xcassets in Resources */,
 				91101F962C6C26DB00BEECCC /* Assets.xcassets in Resources */,
 			);
@@ -381,6 +454,8 @@
 				91101F922C6C26D900BEECCC /* DataUSAApp.swift in Sources */,
 				91936E4C2C6C308900FD2AB6 /* StateData.swift in Sources */,
 				91936E452C6C2D4600FD2AB6 /* APIService.swift in Sources */,
+				91936E502C6C323300FD2AB6 /* NationDataViewModel.swift in Sources */,
+				91936E632C6C39C900FD2AB6 /* StateDataViewModel.swift in Sources */,
 				91936E4A2C6C306400FD2AB6 /* NationData.swift in Sources */,
 				91101F9E2C6C26DB00BEECCC /* DataUSA.xcdatamodeld in Sources */,
 			);
@@ -390,7 +465,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91936E542C6C32D700FD2AB6 /* MockAPIService.swift in Sources */,
 				91101FA82C6C26DB00BEECCC /* DataUSATests.swift in Sources */,
+				91936E4E2C6C321300FD2AB6 /* MockDataUSARepository.swift in Sources */,
+				91936E522C6C327200FD2AB6 /* NationDataViewModelTests.swift in Sources */,
+				91936E652C6C3A0600FD2AB6 /* StateDataViewModelTests.swift in Sources */,
+				91936E5B2C6C339600FD2AB6 /* DataUSARepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +632,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -581,6 +662,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
