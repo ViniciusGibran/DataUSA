@@ -14,7 +14,8 @@ struct StateDataResponse: Codable {
 }
 
 // MARK: - StateData
-struct StateData: Codable {
+struct StateData: Codable, Identifiable {
+    let id = UUID()
     let idState: String
     let state: String
     let idYear: Int

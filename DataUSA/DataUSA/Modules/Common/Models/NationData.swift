@@ -14,7 +14,8 @@ struct DataUSAResponse: Codable {
 }
 
 // MARK: - NationData
-struct NationData: Codable {
+struct NationData: Codable, Identifiable {
+    let id = UUID()
     let idNation: String
     let nation: String
     let idYear: Int
