@@ -29,13 +29,9 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             NationDataView()
-                .tabItem {
-                    Text("Nation")
-                }
+                .tabItem { Label("Nation", systemImage: "list.dash") }
             StateDataView()
-                .tabItem {
-                    Text("Satate")
-                }
+                .tabItem { Label("Satate", systemImage: "list.dash") }
         }
         .ignoresSafeArea(.keyboard, edges: .bottom)
     }
