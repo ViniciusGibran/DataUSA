@@ -19,6 +19,8 @@
 		91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E422C6C2AA000FD2AB6 /* NationDataView.swift */; };
 		91936E452C6C2D4600FD2AB6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E442C6C2D4600FD2AB6 /* APIService.swift */; };
 		91936E482C6C2D8000FD2AB6 /* DataUSARepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */; };
+		91936E4A2C6C306400FD2AB6 /* NationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E492C6C306400FD2AB6 /* NationData.swift */; };
+		91936E4C2C6C308900FD2AB6 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E4B2C6C308900FD2AB6 /* StateData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		91936E422C6C2AA000FD2AB6 /* NationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataView.swift; sourceTree = "<group>"; };
 		91936E442C6C2D4600FD2AB6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		91936E472C6C2D8000FD2AB6 /* DataUSARepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSARepository.swift; sourceTree = "<group>"; };
+		91936E492C6C306400FD2AB6 /* NationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationData.swift; sourceTree = "<group>"; };
+		91936E4B2C6C308900FD2AB6 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 		91101FC62C6C27FB00BEECCC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				91936E492C6C306400FD2AB6 /* NationData.swift */,
+				91936E4B2C6C308900FD2AB6 /* StateData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -373,7 +379,9 @@
 				91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */,
 				91936E482C6C2D8000FD2AB6 /* DataUSARepository.swift in Sources */,
 				91101F922C6C26D900BEECCC /* DataUSAApp.swift in Sources */,
+				91936E4C2C6C308900FD2AB6 /* StateData.swift in Sources */,
 				91936E452C6C2D4600FD2AB6 /* APIService.swift in Sources */,
+				91936E4A2C6C306400FD2AB6 /* NationData.swift in Sources */,
 				91101F9E2C6C26DB00BEECCC /* DataUSA.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
