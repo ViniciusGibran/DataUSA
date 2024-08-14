@@ -8,10 +8,10 @@
 import Foundation
 @testable import DataUSA
 
-class MockAPIService: APIService {
+class MockAPIService: APIServiceProtocol {
     var mockResponseData: Data?
     
-    override func performRequest<T: Decodable>(with url: URL) async throws -> T {
+    func performRequest<T: Decodable>(with url: URL) async throws -> T {
         guard let data = mockResponseData else {
             throw NSError(domain: "No mock data", code: 0, userInfo: nil)
         }

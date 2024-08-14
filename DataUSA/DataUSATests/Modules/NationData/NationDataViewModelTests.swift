@@ -21,7 +21,13 @@ class NationDataViewModelTests: XCTestCase {
     
     func testFetchNationDataSuccess() async throws {
         mockRepository.mockNationData = [NationData(idNation: "01000US", nation: "United States", idYear: 2022, year: "2022", population: 331097593, slugNation: "united-states")]
+        
+        let expectation = XCTestExpectation(description: "Wait for fetch to complete")
         await viewModel.fetchNationData()
+        
+        DispatchQueue.main.async { expectation.fulfill() }
+        
+        await fulfillment(of: [expectation], timeout: 1.0)
         
         XCTAssertEqual(viewModel.nationData.count, 1)
         XCTAssertEqual(viewModel.nationData.first?.population, 331097593)
