@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		91101F922C6C26D900BEECCC /* DataUSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101F912C6C26D900BEECCC /* DataUSAApp.swift */; };
-		91101F942C6C26D900BEECCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101F932C6C26D900BEECCC /* ContentView.swift */; };
 		91101F962C6C26DB00BEECCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91101F952C6C26DB00BEECCC /* Assets.xcassets */; };
-		91101F992C6C26DB00BEECCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91101F982C6C26DB00BEECCC /* Preview Assets.xcassets */; };
 		91101F9B2C6C26DB00BEECCC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101F9A2C6C26DB00BEECCC /* Persistence.swift */; };
 		91101F9E2C6C26DB00BEECCC /* DataUSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91101F9C2C6C26DB00BEECCC /* DataUSA.xcdatamodeld */; };
 		91101FA82C6C26DB00BEECCC /* DataUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101FA72C6C26DB00BEECCC /* DataUSATests.swift */; };
 		91101FB22C6C26DB00BEECCC /* DataUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101FB12C6C26DB00BEECCC /* DataUSAUITests.swift */; };
 		91101FB42C6C26DB00BEECCC /* DataUSAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91101FB32C6C26DB00BEECCC /* DataUSAUITestsLaunchTests.swift */; };
+		91936E3E2C6C297400FD2AB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91936E3C2C6C297400FD2AB6 /* Preview Assets.xcassets */; };
+		91936E412C6C29EC00FD2AB6 /* StateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E402C6C29EC00FD2AB6 /* StateDataView.swift */; };
+		91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91936E422C6C2AA000FD2AB6 /* NationDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,7 @@
 /* Begin PBXFileReference section */
 		91101F8E2C6C26D900BEECCC /* DataUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91101F912C6C26D900BEECCC /* DataUSAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSAApp.swift; sourceTree = "<group>"; };
-		91101F932C6C26D900BEECCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91101F952C6C26DB00BEECCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91101F982C6C26DB00BEECCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91101F9A2C6C26DB00BEECCC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		91101F9D2C6C26DB00BEECCC /* DataUSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataUSA.xcdatamodel; sourceTree = "<group>"; };
 		91101FA32C6C26DB00BEECCC /* DataUSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataUSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,9 @@
 		91101FAD2C6C26DB00BEECCC /* DataUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91101FB12C6C26DB00BEECCC /* DataUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSAUITests.swift; sourceTree = "<group>"; };
 		91101FB32C6C26DB00BEECCC /* DataUSAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91936E3C2C6C297400FD2AB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91936E402C6C29EC00FD2AB6 /* StateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataView.swift; sourceTree = "<group>"; };
+		91936E422C6C2AA000FD2AB6 /* NationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,25 +100,11 @@
 		91101F902C6C26D900BEECCC /* DataUSA */ = {
 			isa = PBXGroup;
 			children = (
-				91101FC22C6C274D00BEECCC /* Resources */,
 				91101FC02C6C273200BEECCC /* App */,
 				91101FC12C6C273F00BEECCC /* Modules */,
-				91101F912C6C26D900BEECCC /* DataUSAApp.swift */,
-				91101F932C6C26D900BEECCC /* ContentView.swift */,
-				91101F952C6C26DB00BEECCC /* Assets.xcassets */,
-				91101F9A2C6C26DB00BEECCC /* Persistence.swift */,
-				91101F9C2C6C26DB00BEECCC /* DataUSA.xcdatamodeld */,
-				91101F972C6C26DB00BEECCC /* Preview Content */,
+				91101FC22C6C274D00BEECCC /* Resources */,
 			);
 			path = DataUSA;
-			sourceTree = "<group>";
-		};
-		91101F972C6C26DB00BEECCC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				91101F982C6C26DB00BEECCC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		91101FA62C6C26DB00BEECCC /* DataUSATests */ = {
@@ -139,6 +127,7 @@
 		91101FC02C6C273200BEECCC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				91101F912C6C26D900BEECCC /* DataUSAApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -146,8 +135,8 @@
 		91101FC12C6C273F00BEECCC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				91101FC42C6C27DF00BEECCC /* StateDataView */,
 				91101FC52C6C27EB00BEECCC /* NationDataView */,
+				91101FC42C6C27DF00BEECCC /* StateDataView */,
 				91101FC32C6C27B200BEECCC /* Common */,
 			);
 			path = Modules;
@@ -156,6 +145,8 @@
 		91101FC22C6C274D00BEECCC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				91936E3D2C6C297400FD2AB6 /* Preview Content */,
+				91101F952C6C26DB00BEECCC /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -174,6 +165,7 @@
 		91101FC42C6C27DF00BEECCC /* StateDataView */ = {
 			isa = PBXGroup;
 			children = (
+				91936E402C6C29EC00FD2AB6 /* StateDataView.swift */,
 			);
 			path = StateDataView;
 			sourceTree = "<group>";
@@ -181,6 +173,7 @@
 		91101FC52C6C27EB00BEECCC /* NationDataView */ = {
 			isa = PBXGroup;
 			children = (
+				91936E422C6C2AA000FD2AB6 /* NationDataView.swift */,
 			);
 			path = NationDataView;
 			sourceTree = "<group>";
@@ -195,6 +188,7 @@
 		91101FC72C6C280B00BEECCC /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				91936E3F2C6C299300FD2AB6 /* Coredata */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -211,6 +205,23 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		91936E3D2C6C297400FD2AB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91936E3C2C6C297400FD2AB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91936E3F2C6C299300FD2AB6 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				91101F9A2C6C26DB00BEECCC /* Persistence.swift */,
+				91101F9C2C6C26DB00BEECCC /* DataUSA.xcdatamodeld */,
+			);
+			path = Coredata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91101F992C6C26DB00BEECCC /* Preview Assets.xcassets in Resources */,
+				91936E3E2C6C297400FD2AB6 /* Preview Assets.xcassets in Resources */,
 				91101F962C6C26DB00BEECCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,8 +354,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91936E412C6C29EC00FD2AB6 /* StateDataView.swift in Sources */,
 				91101F9B2C6C26DB00BEECCC /* Persistence.swift in Sources */,
-				91101F942C6C26D900BEECCC /* ContentView.swift in Sources */,
+				91936E432C6C2AA000FD2AB6 /* NationDataView.swift in Sources */,
 				91101F922C6C26D900BEECCC /* DataUSAApp.swift in Sources */,
 				91101F9E2C6C26DB00BEECCC /* DataUSA.xcdatamodeld in Sources */,
 			);
@@ -509,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DataUSA/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DataUSA/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = GDBMB7F46R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -538,7 +550,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DataUSA/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DataUSA/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = GDBMB7F46R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
